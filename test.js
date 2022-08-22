@@ -1,4 +1,4 @@
-describe('this test' , function(){
+describe('This test' , function(){
     it('should show you how to use MochaJS' , function(){
         assert.equal(2,2);
 
