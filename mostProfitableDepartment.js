@@ -4,8 +4,6 @@ function mostProfitableDepartment(list) {
         const list1 = list[i];
         listMap[list1.department] = 0;
     }
-    console.log(listMap);
-
     for (var i = 0; i < list.length; i++) {
         const list1 = list[i];
         var currentDepartmentTotal = listMap[list1.department];
